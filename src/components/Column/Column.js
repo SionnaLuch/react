@@ -17,8 +17,8 @@ class Column extends React.Component {
     const{title, icon, cards} = this.props;
     return (
       <section className={styles.component}>
-        <h3 className={title}>
-          <span className={icon}><Icon name={icon} /></span>
+        <h3 className={styles.title}>
+          <span className={styles.icon}><Icon name={icon} /></span>
           {title}</h3>
 
         <div className={styles.cards}>
