@@ -1,7 +1,7 @@
 import React from 'react';
 import Home from '../Home/HomeContainer';
 import Info from '../Info/Info';
-import FAQ from '../FAQ/Faq';
+import Faq from '../FAQ/Faq';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import MainLayout from '../MainLayout/MainLayout';
 
@@ -11,7 +11,7 @@ const App = () => (
       <Switch>
         <Route exact path='/' component={Home} />
         <Route exact path='/info' component={Info} />
-        <Route exact path="/FAQ" component={FAQ} />
+        <Route exact path="/FAQ" component={Faq} />
       </Switch>
     </MainLayout>
   </BrowserRouter>

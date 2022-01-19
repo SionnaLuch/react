@@ -5,9 +5,9 @@ import Hero from '../Hero/Hero.js';
 
 const Faq = () => (
   <Container>
-    <Hero titleText={faqData.navTitle} image={faqData.image} />
+    <Hero titleText={faqData.title} imageHero={faqData.image} />
 
-    <p>{faqData.content}</p>
+    <p>{faqData.description}</p>
   </Container>
 );
 
