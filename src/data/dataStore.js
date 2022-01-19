@@ -10,6 +10,9 @@ export const settings = {
     defaultText: 'Search...',
     icon: 'search',
   },
+  headerIcon:{
+    icon:'car',
+  },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
 };
@@ -70,6 +73,16 @@ export const listData = {
       ],
     },
   ],
+};
+export const faqData = {
+  title: 'FAQ',
+  description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  image:'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+};
+export const infoData = {
+  title: 'Info',
+  description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  image:'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
 };
 
 const lists = [
